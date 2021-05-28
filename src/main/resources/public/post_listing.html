@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta content="text/html" charset="utf-8" />
+    <title>Marketplace</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonts n ting-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <script src="js/generateHeader.js"></script>
+
+    <div class="small">
+        <a href="addItem.html">
+            <button class="medBtn">Add a Listing</button>
+        </a>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="section">
+                <h1>My Items</h1>
+                <div id="cont-myItems"></div>
+            </div>
+        </div>
+        <div class="col right">
+            <div class="section">
+                <h1>Sold Items</h1>
+                <div id="cont-mySold"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <h1>Delisted Items</h1>
+        <div id="cont-myDelisted"></div>
+    </div>
+
+
+    <footer>
+        <script src="js/api.js"></script>
+        <script src="js/order.js"></script>
+        <script src="js/getMyItems.js"></script>
+    </footer>
+</body>
+
+</html>

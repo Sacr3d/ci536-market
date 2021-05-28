@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html" charset="utf-8"/>
+        <title>Marketplace</title>
+        <!--Styles-->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link
+        rel="stylesheet" href="css/style.css"/>
+        <!--Fonts n ting-->
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <script src="js/generateHeader.js"></script>
+        
+        <form>
+
+            <div class="small">
+                <label>Username :</label>
+                <input type="text" placeholder="Enter Username" name="username" class="inputStyle" id="userName" required/>
+                <label>Password :</label>
+                <input type="password" placeholder="Enter Password" name="password" class="inputStyle" id="password" required/>
+                <button type="button" class="buttonStyle" id="submitBtn">Login</button>
+                <input type="checkbox" checked="checked"/>
+                Remember me
+                <!--<button type="button" id="cancelBtn">Cancel</button>-->
+                <a href="#">
+                    <p class="textStyle">Forgot password?</p>
+                </a>
+            </div>
+
+        </form>
+        <footer>
+            <script src="js/api.js"></script>
+            <script src="js/login.js"></script>
+        </footer>
+    </body>
+</html>

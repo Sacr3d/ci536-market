@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html" charset="utf-8"/>
+        <title>Marketplace</title>
+        <!--Styles-->
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link
+        rel="stylesheet" href="css/style.css"/>
+        <!--Fonts n ting-->
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <script src="js/generateHeader.js"></script>
+        <h2 class="centertext">Add a Listing</h2>
+        <form>
+            <div class="small">
+                <label>Item Name :
+                </label>
+                <input type="text" placeholder="Enter Item Name" name="itemName" class="inputStyle" id="itemName" required/>
+                <br/>
+                <label>Item Category :
+                </label>
+                <br/>
+                <input type="checkbox" class="categoryCheckbox" id="tech" value="TECHNOLOGY"/>
+                <label class="formLabel" for="tech">Technology</label><br/>
+                <input type="checkbox" class="categoryCheckbox" id="gaming" value="GAMING"/>
+                <label class="formLabel" for="gaming">Gaming</label><br/>
+                <input type="checkbox" class="categoryCheckbox" id="clothing" value="CLOTHING"/>
+                <label class="formLabel" for="clothing">Clothing</label>
+                <input type="checkbox" class="categoryCheckbox" id="sport" value="SPORT"/>
+                <label class="formLabel" for="sport">Sport</label><br/>
+                <input type="checkbox" class="categoryCheckbox" id="literature" value="LITERATURE"/>
+                <label class="formLabel" for="literature">Literature</label><br/>
+                <input type="checkbox" class="categoryCheckbox" id="film_tv" value="FILM_TV"/>
+                <label class="formLabel" for="film_tv">Film & TV</label>
+                <br/>
+                <label >Item Price : </label>
+                <input type="number" placeholder="Enter Price" name="itemPrice" class="inputStyle" id="itemPrice" required/>
+                <br/>
+                <button type="button" class="buttonStyle" id="submitBtn">Submit</button>
+                <!--<button type="button" id="cancelBtn">Cancel</button>-->
+            </div>
+        </form>
+        <footer>
+            <script src="js/api.js"></script>
+            <script src="js/addItem.js"></script>
+        </footer>
+    </body>
+</html>

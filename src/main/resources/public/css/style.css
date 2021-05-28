@@ -1,0 +1,246 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(131, 245, 66);
+    border-bottom: 2px solid rgb(77, 158, 30);
+}
+
+header > h1 {
+    margin: 0 0 0 25px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+
+.title {
+    text-align: center;
+    margin: 0 0 0 25px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 1.5em; 
+}
+
+header > h1, ul {
+    display: inline-block;
+}
+
+#nav {
+    margin: 0;
+    float: right;
+}
+
+#nav > li {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.link {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.search {
+    margin: 0 auto;
+    width: 80%;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.input {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    width: 87%;
+}
+
+.submit {
+    height: 35px;
+    width: 10%;
+}
+
+.section {
+    
+    margin: 0 auto;
+    width: 95%;
+}
+
+.categories {
+    margin: 0 auto;
+    width: 95%;
+}
+.wrap {
+    width: max-content;
+}
+
+.categories > h2 {
+    font-size: 1em;
+}
+
+.small {
+    text-align: center;
+    margin: 30px auto 0 auto;
+    width: 35%;
+}
+
+label {
+    font-weight: bold;
+}
+
+.inputStyle {
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonStyle {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#cont-trend, #cont-recent, #cont-trending {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.section > h2 {
+    font-size: 1em;
+}
+
+.textStyle {
+    text-align: center;
+    display: block;
+}
+
+.item {
+    display: inline-block;
+    margin: 10px 15px 10px 15px;
+    width: fit-content;
+    border: 2px solid rgb(107, 107, 107);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.item:hover {
+    border: 2px solid black;
+}
+
+.item > p {
+    text-align: center;
+}
+
+.orderItem {
+    text-align: center;
+    width: 22%;
+    display: inline-block;
+}
+
+.odd {
+    background-color: lightgray;
+}
+
+.box {
+    padding: 10px;
+    border: 2px solid lightgrey;
+}
+
+.center {
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.smallbox {
+    padding: 10px;
+    width: 60%;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+}
+
+.cat {
+    width: 125px;
+}
+
+.categoryCheckbox {
+    display:block;
+}
+
+.formLabel {
+    margin-bottom: 15px;
+}
+
+.medBtn {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.row {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.col {
+    border: 2px solid rgb(179, 252, 136);;
+    border-radius: 10px;
+    width: 47%;
+    display: inline-block;
+}
+
+.col > .section > h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.right {
+    float: right;
+}
+
+a:visited {
+    color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header > h1 {
+        font-size: 1.25em;
+    }
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta content="text/html" charset="utf-8"/>
+        <title>Marketplace</title>
+        <!--Styles-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link
+        rel="stylesheet" href="css/style.css">
+        <!--Fonts n ting-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <script src="js/generateHeader.js"></script>
+
+        <div class="search">
+            <input class="input" type="text">
+            <input class="submit" type="submit" value="Go">
+        </div>
+
+        <div class="section">
+            <h2>Categories:</h2>
+            <div class="wrapper">
+                <div id="cont-cat">
+
+                    <a onclick="changeCategory(this)" id="CLOTHING">
+                        <div class="cat item">
+                            <img src="img/pictures/clothing.jpg" alt="placeholder">
+                            <p>Clothing</p>
+                        </div>
+                    </a>
+
+                    <a onclick="changeCategory(this)" id="TECH">
+                        <div class="cat item">
+                            <img src="img/pictures/tech.jpg" alt="placeholder">
+                            <p>Tech</p>
+                        </div>
+                    </a>
+
+                    <a onclick="changeCategory(this)" id="GAMING">
+                        <div class="cat item">
+                            <img src="img/pictures/gaming.jpg" alt="placeholder">
+                            <p>Gaming</p>
+                        </div>
+                    </a>
+
+                    <a onclick="changeCategory(this)" id="SPORT">
+                        <div class="cat item">
+                            <img src="img/pictures/sport.jpg" alt="placeholder">
+                            <p>Sports</p>
+                        </div>
+                    </a>
+
+                    <a onclick="changeCategory(this)" id="LITERATURE">
+                        <div class="cat item">
+                            <img src="img/pictures/literature.jpg" alt="placeholder">
+                            <p>Literature</p>
+                        </div>
+                    </a>
+
+                    <a onclick="changeCategory(this)" id="FILM_TV">
+                        <div class="cat item">
+                            <img src="img/pictures/film.jpg" alt="placeholder">
+                            <p>Film & TV</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html></div><div class="section">
+<h2>Trending:</h2>
+<div id="cont-trend"></div></div><footer>
+<script src="js/api.js"></script>
+<script src="js/populateBrowse.js"></script>
+<script src="js/order.js"></script>
+<script src="js/createItemDiv.js"></script></footer></body></html>
